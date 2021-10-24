@@ -1,0 +1,61 @@
+This document organizes approval for system modifications to CoreNGS.
+Forks that do not intend to push modifications upstream may ignore these 
+rules if they do not affect CoreNGS.
+
+=== BRANCH MODIFICATIONS ===
+release/* Requires Release Team Approval
+releng/*  Requires Release Team Approval
+stable/*  Requires Release Team Approval
+
+=== SOURCE MODIFICATIONS ===
+api         Requires Core and API Team Approval
+bin         Requires Applications and Core Team Approval
+cddl        Requires Core Team Approval 
+crypto      Requires Security and Core Team Approval
+etc         Requires Core Team Approval
+gnu         Requires Core Team Approval
+include     Requires Core Team Approval
+kerberos5   Requires Kernel and Core Team Approval
+lib         Requires Applications, Core, and API Team Approval
+libexec     Requires Applications, Core, and API Team Approval
+release     Requires Release and Core Team Approval
+rescue      Requires Core Team Approval
+sbin        Requires Security, Applications, and Core Team Approval
+secure      Requires Security Team Approval 
+share       Requires Core Team Approval
+stand       Requires Kernel and Core Team Approval
+sys         Requires Kernel and Core Team Approval
+targets     Requires Core Team Approval.
+tools       Requires Core Team Approval
+usr.bin     Requires Applications and Core Team Approval 
+usr.sbin    Requires Applications, Security, and Core Team Approval
+
+=== Team Contacts ===
+Team              | Contact email            | Team Lead
+------------------+--------------------------+-------------------------
+API Team          | api@corengs.one          | Samuel Veneble
+Applications Team | applications@corengs.one | Kai Lyons 
+Core Team         | core@corengs.one         | Kai Lyons 
+Kernel Team       | kernel@corengs.one       | Kai Lyons 
+Release Team      | release@corengs.one      | Kai Lyons 
+Security Team     | security@corengs.one     | Kai Lyons
+
+
+=== Non-Absolute ===
+To ensure things run smoothly, the Core Team must approve everything except release.
+Releases are managed by a member of each team - including core - elected to represent 
+the release team. One person can represent multiple teams. There are situations where
+something managed by a team, requiring approval from another team that does not have 
+general approval permissions. 
+
+The Core Team can be contacted by other teams requesting permission, revertion, deletion,
+etc based on effects.
+
+The Security Team, while not having global general approval permissions should generally
+be contacted to be alerted of any changes by other teams. All changes recommend Security
+Team approval.
+
+There can be situations where the Core Team can force a change beyond the required permissions
+with the approval of Security team supporting the decision. The Security Team has to give
+the Core Team permission to make forced changes, even if the Security Team doesn't have general
+approval permissions.

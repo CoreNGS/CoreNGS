@@ -1,0 +1,66 @@
+[submodule "bin"]
+	path = bin
+	url = https://github.com/CoreNGS/bin
+[submodule "cddl"]
+	path = cddl
+	url = https://github.com/CoreNGS/cddl
+[submodule "crypto"]
+	path = crypto
+	url = https://github.com/CoreNGS/crypto
+[submodule "etc"]
+	path = etc
+	url = https://github.com/CoreNGS/etc
+[submodule "gnu"]
+	path = gnu
+	url = https://github.com/CoreNGS/gnu
+[submodule "include"]
+	path = include
+	url = https://github.com/CoreNGS/include
+[submodule "kerberos5"]
+	path = kerberos5
+	url = https://github.com/CoreNGS/kerberos5
+[submodule "lib"]
+	path = lib
+	url = https://github.com/CoreNGS/lib
+[submodule "libexec"]
+	path = libexec
+	url = https://github.com/CoreNGS/libexec
+[submodule "release"]
+	path = release
+	url = https://github.com/CoreNGS/release
+[submodule "rescue"]
+	path = rescue
+	url = https://github.com/CoreNGS/rescue
+[submodule "sbin"]
+	path = sbin
+	url = https://github.com/CoreNGS/sbin
+[submodule "secure"]
+	path = secure
+	url = https://github.com/CoreNGS/secure
+[submodule "share"]
+	path = share
+	url = https://github.com/CoreNGS/share
+[submodule "stand"]
+	path = stand
+	url = https://github.com/CoreNGS/stand
+[submodule "sys"]
+	path = sys
+	url = https://github.com/CoreNGS/sys
+[submodule "tests"]
+	path = tests
+	url = https://github.com/CoreNGS/tests
+[submodule "targets"]
+	path = targets
+	url = https://github.com/CoreNGS/targets
+[submodule "tools"]
+	path = tools
+	url = https://github.com/CoreNGS/tools
+[submodule "usr.bin"]
+	path = usr.bin
+	url = https://github.com/CoreNGS/usr.bin
+[submodule "usr.sbin"]
+	path = usr.sbin
+	url = https://github.com/CoreNGS/usr.sbin
+[submodule "api"]
+	path = api
+	url = https://github.com/CoreNGS/api
